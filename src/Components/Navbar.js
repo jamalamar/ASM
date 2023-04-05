@@ -14,7 +14,8 @@ import {
   MDBDropdownMenu,
   MDBDropdownItem,
   MDBCollapse,
-  MDBTypography
+  MDBTypography,
+  MDBRipple
 } from 'mdb-react-ui-kit';
 
 export default function Navbar() {
@@ -23,7 +24,14 @@ export default function Navbar() {
   return (
     <MDBNavbar expand='lg' sticky dark bgColor='black'>
       <MDBContainer fluid>
-        <MDBNavbarBrand href='/Home'>ASM Supplies</MDBNavbarBrand>
+        
+        <MDBNavbarBrand href='/' className=''>
+            <img
+            src='Assets/Nav_Logo.png'
+            style={{height: 60,}}
+            alt='ASM Logo'
+            />
+        </MDBNavbarBrand>
 
         <MDBNavbarToggler
           aria-controls='navbarSupportedContent'
