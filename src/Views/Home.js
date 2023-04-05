@@ -36,8 +36,8 @@ export default function Home () {
         <MDBCarouselItem
           className='w-100 d-block'
           itemId={1}
-          src='https://mdbootstrap.com/img/Photos/Slides/img%20(15).jpg'
-          alt='...'
+          src='Assets/Car2.png'
+          alt='Carousel One'
         >
           <h5>First slide label</h5>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
@@ -46,8 +46,8 @@ export default function Home () {
         <MDBCarouselItem
           className='w-100 d-block'
           itemId={2}
-          src='https://mdbootstrap.com/img/Photos/Slides/img%20(22).jpg'
-          alt='...'
+          src='Assets/Car3.png'
+          alt='Carousel Two'
         >
           <h5>Second slide label</h5>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -56,8 +56,8 @@ export default function Home () {
         <MDBCarouselItem
           className='w-100 d-block'
           itemId={3}
-          src='https://mdbootstrap.com/img/Photos/Slides/img%20(23).jpg'
-          alt='...'
+          src='Assets/Car1.png'
+          alt='Carousel Three'
         >
           <h5>Third slide label</h5>
           <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
