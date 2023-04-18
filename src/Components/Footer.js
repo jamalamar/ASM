@@ -36,7 +36,7 @@ export default function Footer() {
           <MDBRow className='mt-3'>
             <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>
-                <MDBIcon icon="gem" className="me-3" />
+                <MDBIcon icon="award" className="me-3" />
                 ASM Supplies
               </h6>
               <p>
@@ -48,22 +48,17 @@ export default function Footer() {
               <h6 className='text-uppercase fw-bold mb-4'>Products</h6>
               <p>
                 <a href='#!' className='text-reset'>
-                  Sport
+                  Lunch Bags
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  Wardrobe
+                  Water Bottles
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  Office
-                </a>
-              </p>
-              <p>
-                <a href='#!' className='text-reset'>
-                  Travel
+                  Tote Bags
                 </a>
               </p>
             </MDBCol>
@@ -72,22 +67,17 @@ export default function Footer() {
               <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
               <p>
                 <a href='#!' className='text-reset'>
-                  Pricing
+                  Contact
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  Settings
+                  Info
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  Orders
-                </a>
-              </p>
-              <p>
-                <a href='#!' className='text-reset'>
-                  Help
+                  FAQ's
                 </a>
               </p>
             </MDBCol>
@@ -104,9 +94,6 @@ export default function Footer() {
               </p>
               <p>
                 <MDBIcon icon="phone" className="me-3" /> + 01 234 567 88
-              </p>
-              <p>
-                <MDBIcon icon="print" className="me-3" /> + 01 234 567 89
               </p>
             </MDBCol>
           </MDBRow>
