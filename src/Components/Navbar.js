@@ -62,20 +62,13 @@ export default function Navbar() {
                 <MDBDropdownToggle tag='a' className='nav-link' role='button'>
                   Catalog
                 </MDBDropdownToggle>
+                
                 <MDBDropdownMenu>
-                  <MDBDropdownItem link>Graduation</MDBDropdownItem>
-                  <MDBDropdownItem link>School Uniforms</MDBDropdownItem>
-                  <MDBDropdownItem link>Senior Hoodies</MDBDropdownItem>
-                  <MDBDropdownItem link>Outerwear</MDBDropdownItem>
-                  <MDBDropdownItem link>Spirit Wear</MDBDropdownItem>
-                  <MDBDropdownItem link>Cell Phone Wallets</MDBDropdownItem>
-                  <MDBDropdownItem link>Lanyards</MDBDropdownItem>
-                  <MDBDropdownItem link>Lunch Bags</MDBDropdownItem>
-                  <MDBDropdownItem link>Pens</MDBDropdownItem>
-                  <MDBDropdownItem link>Tote Bags</MDBDropdownItem>
-                  <MDBDropdownItem link>Water Bottles</MDBDropdownItem>
-
+                  <MDBDropdownItem link href='/'>Lunch Bags</MDBDropdownItem>
+                  <MDBDropdownItem link href='/'>Water Bottles</MDBDropdownItem>
+                  <MDBDropdownItem link href='/'>Tote Bags</MDBDropdownItem>
                 </MDBDropdownMenu>
+              
               </MDBDropdown>
             </MDBNavbarItem>
 
