@@ -3,43 +3,14 @@ import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-k
 
 export default function Footer() {
   return (
-    <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
-      <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
-        <div className='me-5 d-none d-lg-block'>
-          <span>Get connected with us on social networks:</span>
-        </div>
+    <MDBFooter bgColor='light' className='text-center text-lg-start text-muted' >
 
-        <div>
-          <a href='' className='me-4 text-reset'>
-            <MDBIcon fab icon="facebook-f" />
-          </a>
-          <a href='' className='me-4 text-reset'>
-            <MDBIcon fab icon="twitter" />
-          </a>
-          <a href='' className='me-4 text-reset'>
-            <MDBIcon fab icon="google" />
-          </a>
-          <a href='' className='me-4 text-reset'>
-            <MDBIcon fab icon="instagram" />
-          </a>
-          <a href='' className='me-4 text-reset'>
-            <MDBIcon fab icon="linkedin" />
-          </a>
-          <a href='' className='me-4 text-reset'>
-            <MDBIcon fab icon="github" />
-          </a>
-        </div>
-      </section>
-
-      <section className=''>
+      <section className='border-bottom border-top '>
         <MDBContainer className='text-center text-md-start mt-5'>
-          <MDBRow className='mt-3'>
-            <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>
-                <MDBIcon icon="award" className="me-3" />
-                ASM Supplies
-              </h6>
-              <p>
+          <MDBRow className=''>
+            <MDBCol md="3" lg="4" xl="3" className='text-center mb-3'>
+              <img src='Assets/Icon.png' style={{height: 120,}} alt='ASM Logo'/>
+              <p className='pt-2 fw-bold'>
                 Get all of your supplies with us!
               </p>
             </MDBCol>
@@ -66,17 +37,17 @@ export default function Footer() {
             <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
               <p>
-                <a href='#!' className='text-reset'>
+                <a href='/Contact' className='text-reset'>
                   Contact
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
+                <a href='/About' className='text-reset'>
                   Info
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
+                <a href='/FAQs' className='text-reset'>
                   FAQ's
                 </a>
               </p>

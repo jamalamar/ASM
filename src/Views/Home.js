@@ -80,18 +80,18 @@ export default function Home () {
 
 
       {/******************* Start of Info Section ********************/}
-      <MDBContainer className='text-center p-5 bg-light'>
+      <MDBContainer className='text-center pt-5 bg-light'>
         
           <MDBRow className='row-cols-1 row-cols-md-3 fs-6 ' alignment='center'>
             <MDBCol>
-              <MDBIcon icon='users' size='3x' color='info'/>
+              <MDBIcon icon='users' size='5x' color='success'/>
               <MDBTypography className='p-5'>
                 A family-founded and operated business since 2018.
               </MDBTypography>
             </MDBCol>
             
             <MDBCol>
-              <MDBIcon icon='award' size='3x' color='warning'/>
+              <MDBIcon icon='award' size='5x' color='success'/>
               <MDBTypography className='p-5'>
                 Product, quality, accountability, and customer satisfaction are of our utmost
                 priorities. 
@@ -99,7 +99,7 @@ export default function Home () {
             </MDBCol>
             
             <MDBCol>
-              <MDBIcon icon='headset' size='3x' color='danger'/>
+              <MDBIcon icon='headset' size='5x' color='success'/>
               <MDBTypography className='p-5'>
               Our team is committed to providing the best possible customer experience.
               </MDBTypography>
@@ -159,7 +159,7 @@ export default function Home () {
             <MDBCardText>
 
             </MDBCardText>
-            <MDBBtn rounded className='mx-2' color='info' size='lg' href='#'>Explore</MDBBtn>
+            <MDBBtn rounded className='mx-2' color='success' size='lg' href='#'>Explore</MDBBtn>
           </MDBCardBody>
         </MDBCard>
       </MDBCol>
@@ -204,7 +204,7 @@ export default function Home () {
             <MDBCardText>
 
             </MDBCardText>
-            <MDBBtn rounded className='mx-2' color='info' size='lg' href='#'>Explore</MDBBtn>
+            <MDBBtn rounded className='mx-2' color='success' size='lg' href='#'>Explore</MDBBtn>
           </MDBCardBody>
         </MDBCard>
       </MDBCol>
@@ -249,7 +249,7 @@ export default function Home () {
             <MDBCardText>
 
             </MDBCardText>
-            <MDBBtn rounded className='mx-2' color='info' size='lg' href='#'>Explore</MDBBtn>
+            <MDBBtn rounded className='mx-2' color='success' size='lg' href='#'>Explore</MDBBtn>
           </MDBCardBody>
         </MDBCard>
       </MDBCol>
@@ -258,7 +258,45 @@ export default function Home () {
 
       {/************************ 4th Item *************************/}
       <MDBCol>
-        
+        <MDBCard className='h-100' alignment='center'>
+          <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
+            <MDBCarousel className='h-100' alignment='center' >
+              <MDBCarouselItem
+                className='w-100 h-100 d-block'
+                itemId={1}
+                src='Assets/ToteBags/35.png'
+                alt='...'
+              >
+              </MDBCarouselItem>
+
+              <MDBCarouselItem
+                className='w-100 h-100 d-block'
+                itemId={2}
+                src='Assets/ToteBags/3.png'
+                alt='...'
+              >
+              </MDBCarouselItem>
+
+              <MDBCarouselItem
+                className='w-100 h-100 d-block'
+                itemId={3}
+                src='Assets/ToteBags/49.png'
+                alt='...'
+              >
+              </MDBCarouselItem>
+            </MDBCarousel>
+            <a>
+              <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}></div>
+            </a>
+          </MDBRipple>
+          <MDBCardBody>
+            <MDBCardTitle>4th Item</MDBCardTitle>
+            <MDBCardText>
+
+            </MDBCardText>
+            <MDBBtn rounded className='mx-2' color='success' size='lg' href='#'>Explore</MDBBtn>
+          </MDBCardBody>
+        </MDBCard>
       </MDBCol>
 
 
@@ -270,7 +308,22 @@ export default function Home () {
     </div>
     {/******************* End of Card Group ********************/}
 
+
+    {/******************* 2nd Info Section ********************/}
+    <MDBContainer className='text-center pb-5'>
+        
+          <MDBRow className='row-cols-1 row-cols-md-1' alignment='center'>
+            <MDBCol>
+              <img src='Assets/Satisfaction.png' className='img-fluid' alt='FAQs Banner' />
+            </MDBCol>
+          </MDBRow>
+
+      </MDBContainer>
+
+
+
     </div>
+
       
     )
 }

@@ -79,6 +79,25 @@ export default function Navbar() {
             </MDBNavbarItem>
 
           </MDBNavbarNav>
+
+
+          <section className='flex-row-reverse'>
+              <div className='me-2'>
+                <a href='' className='me-4 text-reset'>
+                  <MDBIcon fab icon="facebook-f" />
+                </a>
+                <a href='' className='me-4 text-reset'>
+                  <MDBIcon fab icon="twitter" />
+                </a>
+                <a href='' className='me-4 text-reset'>
+                  <MDBIcon fab icon="instagram" />
+                </a>
+                <a href='' className='me-4 text-reset'>
+                  <MDBIcon fab icon="linkedin" />
+                </a>
+              </div>
+            </section>
+
         </MDBCollapse>
       </MDBContainer>
     </MDBNavbar>
