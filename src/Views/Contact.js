@@ -18,7 +18,7 @@ export default function Contact () {
     return (
       
     <div>
-      <MDBTypography classname='display-6'>Contact</MDBTypography>
+      <MDBTypography className='display-3 pb-3 mb-3'>Contact</MDBTypography>
     </div>
       
     )

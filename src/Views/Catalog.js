@@ -18,7 +18,7 @@ export default function Catalog () {
     return (
       
     <div>
-      <MDBTypography classname='display-6'>Catalog</MDBTypography>
+      <MDBTypography className='display-3 pb-3 mb-3'>Catalog</MDBTypography>
     </div>
       
     )

@@ -12,7 +12,8 @@ import {
   MDBCol,
   MDBTypography,
   MDBBtn,
-  MDBRipple
+  MDBRipple,
+  MDBContainer
 } from 'mdb-react-ui-kit';
 
 export default function Home () {
@@ -77,6 +78,30 @@ export default function Home () {
       <br></br>
 
 
+      {/******************* Start of Info Section ********************/}
+      {/*
+      <MDBContainer>
+        <MDBTypography className='display-3 pb-3 mb-3'>Get all your supplies here</MDBTypography>
+        
+          <MDBRow className='row-cols-1 row-cols-md-3 g-4' alignment='center'>
+            <MDBCol>
+              md="4"
+            </MDBCol>
+            <MDBCol>
+              md="4"
+            </MDBCol>
+            <MDBCol>
+              md="4"
+            </MDBCol>
+          </MDBRow>
+
+      </MDBContainer>
+      */}
+      {/******************* End of Info Section ********************/}
+
+
+      <br></br>
+
 
       {/******************* Start of Card Group ********************/}
       <div style={style.cards}>
@@ -85,7 +110,7 @@ export default function Home () {
 
 
 
-      {/************************Lunch Bags*************************/}
+      {/************************ Lunch Bags *************************/}
       <MDBCol>
         <MDBCard className='h-100' alignment='center'>
           <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
@@ -131,7 +156,7 @@ export default function Home () {
       
       
 
-      {/************************Water Bottles*************************/}
+      {/************************ Water Bottles *************************/}
       <MDBCol>
         <MDBCard className='h-100' alignment='center'>
           <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
@@ -176,7 +201,7 @@ export default function Home () {
       
 
 
-      {/************************Tote Bags*************************/}
+      {/************************ Tote Bags *************************/}
       <MDBCol>
         <MDBCard className='h-100' alignment='center'>
           <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
@@ -221,160 +246,17 @@ export default function Home () {
 
 
 
-      {/************************Test Bags*************************/}
+      {/************************ 4th Item *************************/}
       <MDBCol>
         
       </MDBCol>
-      
-
-      {/************* Future Cards 
-
-      <MDBCol>
-        <MDBCard className='h-100'>
-          <MDBCardImage
-            src='https://mdbootstrap.com/img/new/standard/city/044.webp'
-            alt='...'
-            position='top'
-          />
-          <MDBCardBody>
-            <MDBCardTitle>Outerwear</MDBCardTitle>
-            <MDBCardText>
-              This is a longer card with supporting text below as a natural lead-in to additional content.
-              This content is a little bit longer.
-            </MDBCardText>
-          </MDBCardBody>
-        </MDBCard>
-      </MDBCol>
 
 
-      <MDBCol>
-        <MDBCard className='h-100'>
-          <MDBCardImage
-            src='https://mdbootstrap.com/img/new/standard/city/045.webp'
-            alt='...'
-            position='top'
-          />
-          <MDBCardBody>
-          <MDBCardTitle>Spirit Wear</MDBCardTitle>
-            <MDBCardText>
-              This is a longer card with supporting text below as a natural lead-in to additional content.
-              This content is a little bit longer.
-            </MDBCardText>
-          </MDBCardBody>
-        </MDBCard>
-      </MDBCol>
-
-
-      <MDBCol>
-        <MDBCard className='h-100'>
-          <MDBCardImage
-            src='https://mdbootstrap.com/img/new/standard/city/046.webp'
-            alt='...'
-            position='top'
-          />
-          <MDBCardBody>
-            <MDBCardTitle>Cell Phone Wallets</MDBCardTitle>
-            <MDBCardText>
-              This is a longer card with supporting text below as a natural lead-in to additional content.
-              This content is a little bit longer.
-            </MDBCardText>
-          </MDBCardBody>
-        </MDBCard>
-      </MDBCol>
-
-
-      <MDBCol>
-        <MDBCard className='h-100'>
-          <MDBCardImage
-            src='https://mdbootstrap.com/img/new/standard/city/047.webp'
-            alt='...'
-            position='top'
-          />
-          <MDBCardBody>
-            <MDBCardTitle>Lanyards</MDBCardTitle>
-            <MDBCardText>
-              This is a longer card with supporting text below as a natural lead-in to additional content.
-              This content is a little bit longer.
-            </MDBCardText>
-          </MDBCardBody>
-        </MDBCard>
-      </MDBCol>
-
-
-      <MDBCol>
-        <MDBCard className='h-100'>
-          <MDBCardImage
-            src='https://mdbootstrap.com/img/new/standard/city/048.webp'
-            alt='...'
-            position='top'
-          />
-          <MDBCardBody>
-            <MDBCardTitle>Lunch Bags</MDBCardTitle>
-            <MDBCardText>
-              This is a longer card with supporting text below as a natural lead-in to additional content.
-              This content is a little bit longer.
-            </MDBCardText>
-          </MDBCardBody>
-        </MDBCard>
-      </MDBCol>
-
-
-      <MDBCol>
-        <MDBCard className='h-100'>
-          <MDBCardImage
-            src='https://mdbootstrap.com/img/new/standard/city/049.webp'
-            alt='...'
-            position='top'
-          />
-          <MDBCardBody>
-            <MDBCardTitle>Pens</MDBCardTitle>
-            <MDBCardText>
-              This is a longer card with supporting text below as a natural lead-in to additional content.
-              This content is a little bit longer.
-            </MDBCardText>
-          </MDBCardBody>
-        </MDBCard>
-      </MDBCol>
-
-
-      <MDBCol>
-        <MDBCard className='h-100'>
-          <MDBCardImage
-            src='https://mdbootstrap.com/img/new/standard/city/050.webp'
-            alt='...'
-            position='top'
-          />
-          <MDBCardBody>
-            <MDBCardTitle>Tote Bags</MDBCardTitle>
-            <MDBCardText>
-              This is a longer card with supporting text below as a natural lead-in to additional content.
-              This content is a little bit longer.
-            </MDBCardText>
-          </MDBCardBody>
-        </MDBCard>
-      </MDBCol>
-
-
-      <MDBCol>
-        <MDBCard className='h-100'>
-          <MDBCardImage
-            src='https://mdbootstrap.com/img/new/standard/city/051.webp'
-            alt='...'
-            position='top'
-          />
-          <MDBCardBody>
-            <MDBCardTitle>Water Bottles</MDBCardTitle>
-            <MDBCardText>
-              This is a longer card with supporting text below as a natural lead-in to additional content.
-              This content is a little bit longer.
-            </MDBCardText>
-          </MDBCardBody>
-        </MDBCard>
-      </MDBCol>
-
-      ****************/}
     
     </MDBRow>
+
+    <br></br>
+
     </div>
     {/******************* End of Card Group ********************/}
 
