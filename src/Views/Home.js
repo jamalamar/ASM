@@ -80,7 +80,7 @@ export default function Home () {
 
       {/******************* Start of Info Section ********************/}
       {/*
-      <MDBContainer>
+      <MDBContainer className='text-center'>
         <MDBTypography className='display-3 pb-3 mb-3'>Get all your supplies here</MDBTypography>
         
           <MDBRow className='row-cols-1 row-cols-md-3 g-4' alignment='center'>
