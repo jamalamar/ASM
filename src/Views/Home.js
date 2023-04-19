@@ -13,7 +13,8 @@ import {
   MDBTypography,
   MDBBtn,
   MDBRipple,
-  MDBContainer
+  MDBContainer,
+  MDBIcon
 } from 'mdb-react-ui-kit';
 
 export default function Home () {
@@ -79,24 +80,33 @@ export default function Home () {
 
 
       {/******************* Start of Info Section ********************/}
-      {/*
-      <MDBContainer className='text-center'>
-        <MDBTypography className='display-3 pb-3 mb-3'>Get all your supplies here</MDBTypography>
+      <MDBContainer className='text-center p-5 bg-light'>
         
-          <MDBRow className='row-cols-1 row-cols-md-3 g-4' alignment='center'>
+          <MDBRow className='row-cols-1 row-cols-md-3 fs-6 ' alignment='center'>
             <MDBCol>
-              md="4"
+              <MDBIcon icon='users' size='3x' color='info'/>
+              <MDBTypography className='p-5'>
+                A family-founded and operated business since 2018.
+              </MDBTypography>
             </MDBCol>
+            
             <MDBCol>
-              md="4"
+              <MDBIcon icon='award' size='3x' color='warning'/>
+              <MDBTypography className='p-5'>
+                Product, quality, accountability, and customer satisfaction are of our utmost
+                priorities. 
+              </MDBTypography>          
             </MDBCol>
+            
             <MDBCol>
-              md="4"
+              <MDBIcon icon='headset' size='3x' color='danger'/>
+              <MDBTypography className='p-5'>
+              Our team is committed to providing the best possible customer experience.
+              </MDBTypography>
             </MDBCol>
           </MDBRow>
 
       </MDBContainer>
-      */}
       {/******************* End of Info Section ********************/}
 
 
@@ -105,7 +115,7 @@ export default function Home () {
 
       {/******************* Start of Card Group ********************/}
       <div style={style.cards}>
-      <MDBTypography className='display-3 pb-3 mb-3'>Products</MDBTypography>
+      <MDBTypography className='display-3 pb-3 mb-3 text-center'>Best Sellers</MDBTypography>
       <MDBRow className='row-cols-1 row-cols-md-4 g-4'>
 
 

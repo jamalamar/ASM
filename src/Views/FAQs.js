@@ -67,9 +67,9 @@ export default function FAQs () {
 
           <MDBAccordionItem collapseId={6} headerTitle={<><MDBIcon fas icon="question-circle" /> 
             <h4> &nbsp;  Where are your products manufactured and customized? </h4> </>}>
-            At ASMSupplies.com, we order blank products from USA based distributors and manufacturers 
+            At ASMEssentials.com, we order blank products from USA based distributors and manufacturers 
             and each product label lists its country of origin. All product customizations are made by 
-            ASM Supplies in our facility. 
+            ASM Essentials in our facility. 
           </MDBAccordionItem>
         </MDBAccordion>
 
