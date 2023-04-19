@@ -40,7 +40,7 @@ export default function Home () {
         <MDBCarouselItem
           className='w-100 d-block'
           itemId={1}
-          src='Assets/Car2.png'
+          src='Assets/Car3.png'
           alt='Carousel One'
         >
           {/* 
@@ -52,7 +52,7 @@ export default function Home () {
         <MDBCarouselItem
           className='w-100 d-block'
           itemId={2}
-          src='Assets/Car3.png'
+          src='Assets/Car1.png'
           alt='Carousel Two'
         >
           {/*
@@ -64,7 +64,7 @@ export default function Home () {
         <MDBCarouselItem
           className='w-100 d-block'
           itemId={3}
-          src='Assets/Car1.png'
+          src='Assets/Car2.png'
           alt='Carousel Three'
         >
           {/*
