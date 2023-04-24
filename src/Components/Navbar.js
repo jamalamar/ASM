@@ -64,9 +64,11 @@ export default function Navbar() {
                 </MDBDropdownToggle>
                 
                 <MDBDropdownMenu>
-                  <MDBDropdownItem link href='/'>Lunch Bags</MDBDropdownItem>
-                  <MDBDropdownItem link href='/'>Water Bottles</MDBDropdownItem>
-                  <MDBDropdownItem link href='/'>Tote Bags</MDBDropdownItem>
+                  <MDBDropdownItem link href='/LunchBags'>Lunch Bags</MDBDropdownItem>
+                  <MDBDropdownItem link href='/WaterBottles'>Water Bottles</MDBDropdownItem>
+                  <MDBDropdownItem link href='/ToteBags'>Tote Bags</MDBDropdownItem>
+                  <MDBDropdownItem link href='/SchoolApparel'>School Apparel</MDBDropdownItem>
+                  <MDBDropdownItem link href='/SchoolSupplies'>School Supplies</MDBDropdownItem>
                 </MDBDropdownMenu>
               
               </MDBDropdown>

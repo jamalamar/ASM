@@ -159,7 +159,7 @@ export default function Home () {
             <MDBCardText>
 
             </MDBCardText>
-            <MDBBtn rounded className='mx-2' color='success' size='lg' href='#'>Explore</MDBBtn>
+            <MDBBtn rounded className='mx-2' color='success' size='lg' href='/LunchBags'>Explore</MDBBtn>
           </MDBCardBody>
         </MDBCard>
       </MDBCol>
@@ -204,7 +204,7 @@ export default function Home () {
             <MDBCardText>
 
             </MDBCardText>
-            <MDBBtn rounded className='mx-2' color='success' size='lg' href='#'>Explore</MDBBtn>
+            <MDBBtn rounded className='mx-2' color='success' size='lg' href='/WaterBottles'>Explore</MDBBtn>
           </MDBCardBody>
         </MDBCard>
       </MDBCol>
@@ -249,14 +249,14 @@ export default function Home () {
             <MDBCardText>
 
             </MDBCardText>
-            <MDBBtn rounded className='mx-2' color='success' size='lg' href='#'>Explore</MDBBtn>
+            <MDBBtn rounded className='mx-2' color='success' size='lg' href='/ToteBags'>Explore</MDBBtn>
           </MDBCardBody>
         </MDBCard>
       </MDBCol>
 
 
 
-      {/************************ 4th Item *************************/}
+      {/************************ School Apparel *************************/}
       <MDBCol>
         <MDBCard className='h-100' alignment='center'>
           <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
@@ -264,7 +264,7 @@ export default function Home () {
               <MDBCarouselItem
                 className='w-100 h-100 d-block'
                 itemId={1}
-                src='Assets/ToteBags/35.png'
+                src='Assets/SchoolApparel/3.png'
                 alt='...'
               >
               </MDBCarouselItem>
@@ -272,7 +272,7 @@ export default function Home () {
               <MDBCarouselItem
                 className='w-100 h-100 d-block'
                 itemId={2}
-                src='Assets/ToteBags/3.png'
+                src='Assets/SchoolApparel/14.png'
                 alt='...'
               >
               </MDBCarouselItem>
@@ -280,7 +280,7 @@ export default function Home () {
               <MDBCarouselItem
                 className='w-100 h-100 d-block'
                 itemId={3}
-                src='Assets/ToteBags/49.png'
+                src='Assets/SchoolApparel/19.png'
                 alt='...'
               >
               </MDBCarouselItem>
@@ -290,11 +290,11 @@ export default function Home () {
             </a>
           </MDBRipple>
           <MDBCardBody>
-            <MDBCardTitle>4th Item</MDBCardTitle>
+            <MDBCardTitle>School Apparel</MDBCardTitle>
             <MDBCardText>
 
             </MDBCardText>
-            <MDBBtn rounded className='mx-2' color='success' size='lg' href='#'>Explore</MDBBtn>
+            <MDBBtn rounded className='mx-2' color='success' size='lg' href='/SchoolApparel'>Explore</MDBBtn>
           </MDBCardBody>
         </MDBCard>
       </MDBCol>

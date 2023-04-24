@@ -10,6 +10,12 @@ import Catalog  from './Views/Catalog'
 import FAQs  from './Views/FAQs'
 import Contact  from './Views/Contact'
 
+import LunchBags  from './Views/LunchBags'
+import WaterBottles  from './Views/WaterBottles'
+import ToteBags  from './Views/ToteBags'
+import SchoolApparel  from './Views/SchoolApparel'
+import SchoolSupplies  from './Views/SchoolSupplies'
+
 function App() {
 
   return (
@@ -24,6 +30,11 @@ function App() {
             <Route exact path="/Catalog" element={<Catalog/>} />
             <Route exact path="/FAQs" element={<FAQs/>} />
             <Route exact path="/Contact" element={<Contact/>} />
+            <Route exact path="/LunchBags" element={<LunchBags/>} />
+            <Route exact path="/WaterBottles" element={<WaterBottles/>} />
+            <Route exact path="/ToteBags" element={<ToteBags/>} />
+            <Route exact path="/SchoolApparel" element={<SchoolApparel/>} />
+            <Route exact path="/SchoolSupplies" element={<SchoolSupplies/>} />
             
           </Routes>
         
