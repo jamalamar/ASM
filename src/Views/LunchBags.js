@@ -31,7 +31,7 @@ const ImageSelector = ({ images, onSelect }) => {
   };
 
   return (
-    <div>
+    <div style={{ width: '520px', height: '100' }}>
       <img src={selectedImage} alt="Selected Image" style={{ width: '480px', height: '480px' }}/>
       <br></br>
       {images.map((image, index) => (
@@ -88,7 +88,7 @@ export default function LunchBags () {
               <p className='text-warning mb-1'>Minimum Order Qty: 100</p>
               <MDBBadge pill light color='success' className='mb-3'>Available</MDBBadge>
             
-              <MDBListGroup style={{ fontSize: '12px' }} light>
+              <MDBListGroup style={{ fontSize: '14px' }} light>
               <p className='fw-bold'>Description:</p>
                 <MDBListGroupItem action className='px-3 rounded-3 mb-0'>
                   Made from durable 80GSM non-woven polypropylene.
@@ -104,8 +104,8 @@ export default function LunchBags () {
                 </MDBListGroupItem>
               </MDBListGroup>
 
-              <p className='fw-bold mt-2' style={{ fontSize: '12px' }}>Sizes:</p>
-              <MDBListGroup style={{ fontSize: '12px' }} light>
+              <p className='fw-bold mt-3' style={{ fontSize: '14px' }}>Sizes:</p>
+              <MDBListGroup style={{ fontSize: '14px' }} light>
                 <MDBListGroupItem action className='px-3 rounded-3'>
                   7.25 " x 10 " x 4.75 "
                 </MDBListGroupItem>
@@ -177,11 +177,27 @@ export default function LunchBags () {
             <div className='ms-3'>
               <p className='display-6 fw-bold mb-1'>6 Pack Non-woven Cooler Bag</p>
               <p className='text-muted mb-0'>STYLE #561196452</p>
+              <p className='text-warning mb-1'>Minimum Order Qty: 100</p>
+              <MDBBadge pill light color='success' className='mb-3'>Available</MDBBadge>
+            
+              <MDBListGroup style={{ fontSize: '14px' }} light>
+              <p className='fw-bold'>Description:</p>
+                <MDBListGroupItem action className='px-3 rounded-3 mb-0'>
+                  Made from 80 GSM non- woven polypropylene.
+                </MDBListGroupItem>
+                <MDBListGroupItem action className='px-3 rounded-3 mb-0'>
+                  With a thermal food-safe foil lining.
+                </MDBListGroupItem>
+              </MDBListGroup>
+
+              <p className='fw-bold mt-2' style={{ fontSize: '14px' }}>Sizes:</p>
+              <MDBListGroup style={{ fontSize: '14px' }} light>
+                <MDBListGroupItem action className='px-3 rounded-3'>
+                  8 " x 6.5 " x 5.5 "
+                </MDBListGroupItem>
+              </MDBListGroup>
             </div>
           </div>
-          <MDBBadge pill light color='success'>
-            Available
-          </MDBBadge>
         </MDBListGroupItem>
         
         
@@ -190,20 +206,41 @@ export default function LunchBags () {
         {/************************ITEM 3***********************/}
         <MDBListGroupItem className='d-flex justify-content-between align-items-center'>
           <div className='d-flex align-items-center'>
-            <img
-              src='Assets/LunchBags/23.png'
-              alt=''
-              style={{ width: '360px', height: '360px' }}
-              className='rounded-circle'
-            />
+            <ImageSelector
+                images={[
+                  'Assets/LunchBags/23.png', 
+                  'Assets/LunchBags/24.png', 
+                  'Assets/LunchBags/25.png'
+                  ]}
+                onSelect={handleTargetSelect}
+              />
             <div className='ms-3'>
               <p className='display-6 fw-bold mb-1'>Bayamo Cooler Lunch Bag</p>
               <p className='text-muted mb-0'>STYLE #562130564</p>
+              <p className='text-warning mb-1'>Minimum Order Qty: 175</p>
+              <MDBBadge pill light color='success' className='mb-3'>Available</MDBBadge>
+            
+              <MDBListGroup style={{ fontSize: '14px' }} light>
+              <p className='fw-bold'>Description:</p>
+                <MDBListGroupItem action className='px-3 rounded-3 mb-0'>
+                  Bayamo cooler lunch bag.
+                </MDBListGroupItem>
+                <MDBListGroupItem action className='px-3 rounded-3 mb-0'>
+                  Flap with hook and loop closure.
+                </MDBListGroupItem>
+                <MDBListGroupItem action className='px-3 rounded-3 mb-0'>
+                  Non-woven Polypropylene.
+                </MDBListGroupItem>
+              </MDBListGroup>
+
+              <p className='fw-bold mt-2' style={{ fontSize: '14px' }}>Sizes:</p>
+              <MDBListGroup style={{ fontSize: '14px' }} light>
+                <MDBListGroupItem action className='px-3 rounded-3'>
+                  7 7/8 " x 10 1/2 " x 6 1/2 "
+                </MDBListGroupItem>
+              </MDBListGroup>
             </div>
           </div>
-          <MDBBadge pill light color='success'>
-            Available
-          </MDBBadge>
         </MDBListGroupItem>
 
         
@@ -212,20 +249,39 @@ export default function LunchBags () {
         {/************************ITEM 4***********************/}
         <MDBListGroupItem className='d-flex justify-content-between align-items-center'>
           <div className='d-flex align-items-center'>
-            <img
-              src='Assets/LunchBags/30.png'
-              alt=''
-              style={{ width: '360px', height: '360px' }}
-              className='rounded-circle'
-            />
+            <ImageSelector
+                images={[
+                  'Assets/LunchBags/30.png', 
+                  'Assets/LunchBags/32.png', 
+                  'Assets/LunchBags/33.png', 
+                  'Assets/LunchBags/34.png'
+                  ]}
+                onSelect={handleTargetSelect}
+              />
             <div className='ms-3'>
               <p className='display-6 fw-bold mb-1'>Non-Woven Chow Time Cooler Bag</p>
               <p className='text-muted mb-0'>STYLE #560340683</p>
+              <p className='text-warning mb-1'>Minimum Order Qty: 175</p>
+              <MDBBadge pill light color='success' className='mb-3'>Available</MDBBadge>
+            
+              <MDBListGroup style={{ fontSize: '14px' }} light>
+              <p className='fw-bold'>Description:</p>
+                <MDBListGroupItem action className='px-3 rounded-3 mb-0'>
+                  Reusable lightweight 80GSM bag.
+                </MDBListGroupItem>
+                <MDBListGroupItem action className='px-3 rounded-3 mb-0'>
+                  Secure your meals with the foldable flap and hook and loop fastener closure.
+                </MDBListGroupItem>
+              </MDBListGroup>
+
+              <p className='fw-bold mt-2' style={{ fontSize: '14px' }}>Sizes:</p>
+              <MDBListGroup style={{ fontSize: '14px' }} light>
+                <MDBListGroupItem action className='px-3 rounded-3'>
+                  10 " x 7 1/4 " x 5 1/2 "
+                </MDBListGroupItem>
+              </MDBListGroup>
             </div>
           </div>
-          <MDBBadge pill light color='success'>
-            Available
-          </MDBBadge>
         </MDBListGroupItem>
 
         
@@ -234,20 +290,59 @@ export default function LunchBags () {
         {/************************ITEM 5***********************/}
         <MDBListGroupItem className='d-flex justify-content-between align-items-center'>
           <div className='d-flex align-items-center'>
-            <img
-              src='Assets/LunchBags/35.png'
-              alt=''
-              style={{ width: '360px', height: '360px' }}
-              className='rounded-circle'
-            />
+            <ImageSelector
+                images={[
+                  'Assets/LunchBags/35.png', 
+                  'Assets/LunchBags/36.png', 
+                  'Assets/LunchBags/37.png', 
+                  'Assets/LunchBags/38.png',
+                  'Assets/LunchBags/39.png',
+                  'Assets/LunchBags/40.png',
+                  'Assets/LunchBags/41.png',
+                  'Assets/LunchBags/42.png',
+                  'Assets/LunchBags/43.png',
+                  'Assets/LunchBags/44.png',
+                  'Assets/LunchBags/45.png',
+                  'Assets/LunchBags/46.png'
+                  ]}
+                onSelect={handleTargetSelect}
+              />
             <div className='ms-3'>
               <p className='display-6 fw-bold mb-1'>Budget Lunch Bag</p>
               <p className='text-muted mb-0'>STYLE #559758579</p>
+              <p className='text-warning mb-1'>Minimum Order Qty: 100</p>
+              <MDBBadge pill light color='success' className='mb-3'>Available</MDBBadge>
+            
+              <MDBListGroup style={{ fontSize: '14px' }} light>
+              <p className='fw-bold'>Description:</p>
+                <MDBListGroupItem action className='px-3 rounded-3 mb-0'>
+                  Made Of 210D Polyester.
+                </MDBListGroupItem>
+                <MDBListGroupItem action className='px-3 rounded-3 mb-0'>
+                  PEVA Lining.
+                </MDBListGroupItem>
+                <MDBListGroupItem action className='px-3 rounded-3 mb-0'>
+                  Web Carrying Handle.
+                </MDBListGroupItem>
+                <MDBListGroupItem action className='px-3 rounded-3 mb-0'>
+                  Front Pocket.
+                </MDBListGroupItem>
+                <MDBListGroupItem action className='px-3 rounded-3 mb-0'>
+                  Hook And Loop Closure.
+                </MDBListGroupItem>
+                <MDBListGroupItem action className='px-3 rounded-3 mb-0'>
+                  HSpot Clean/Air Dry.
+                </MDBListGroupItem>
+              </MDBListGroup>
+
+              <p className='fw-bold mt-2' style={{ fontSize: '14px' }}>Sizes:</p>
+              <MDBListGroup style={{ fontSize: '14px' }} light>
+                <MDBListGroupItem action className='px-3 rounded-3'>
+                  6 7/8 " x 9 1/2 " x 4 5/8 "
+                </MDBListGroupItem>
+              </MDBListGroup>
             </div>
           </div>
-          <MDBBadge pill light color='success'>
-            Available
-          </MDBBadge>
         </MDBListGroupItem>
 
         
@@ -256,20 +351,47 @@ export default function LunchBags () {
         {/************************ITEM 6***********************/}
         <MDBListGroupItem className='d-flex justify-content-between align-items-center'>
           <div className='d-flex align-items-center'>
-            <img
-              src='Assets/LunchBags/47.png'
-              alt=''
-              style={{ width: '360px', height: '360px' }}
-              className='rounded-circle'
-            />
+            <ImageSelector
+                images={[
+                  'Assets/LunchBags/47.png', 
+                  'Assets/LunchBags/48.png', 
+                  'Assets/LunchBags/49.png', 
+                  'Assets/LunchBags/50.png',
+                  'Assets/LunchBags/51.png',
+                  'Assets/LunchBags/52.png'
+                  ]}
+                onSelect={handleTargetSelect}
+              />
             <div className='ms-3'>
               <p className='display-6 fw-bold mb-1'>Crosshatch Non-Woven Lunch Bag</p>
               <p className='text-muted mb-0'>STYLE #561137807</p>
+              <p className='text-warning mb-1'>Minimum Order Qty: 100</p>
+              <MDBBadge pill light color='success' className='mb-3'>Available</MDBBadge>
+            
+              <MDBListGroup style={{ fontSize: '14px' }} light>
+              <p className='fw-bold'>Description:</p>
+                <MDBListGroupItem action className='px-3 rounded-3 mb-0'>
+                  Made Of 80 Gram Non- Woven, Coated Water- Resistant Polypropylene.
+                </MDBListGroupItem>
+                <MDBListGroupItem action className='px-3 rounded-3 mb-0'>
+                  Foil Laminated PE Foam Insulation.
+                </MDBListGroupItem>
+                <MDBListGroupItem action className='px-3 rounded-3 mb-0'>
+                  8 1/2" Handle.
+                </MDBListGroupItem>
+                <MDBListGroupItem action className='px-3 rounded-3 mb-0'>
+                  Spot Clean/Air Dry.
+                </MDBListGroupItem>
+              </MDBListGroup>
+
+              <p className='fw-bold mt-2' style={{ fontSize: '14px' }}>Sizes:</p>
+              <MDBListGroup style={{ fontSize: '14px' }} light>
+                <MDBListGroupItem action className='px-3 rounded-3'>
+                  9 3/4 " x 7 " x 5 "
+                </MDBListGroupItem>
+              </MDBListGroup>
             </div>
           </div>
-          <MDBBadge pill light color='success'>
-            Available
-          </MDBBadge>
         </MDBListGroupItem>
 
 
@@ -278,20 +400,44 @@ export default function LunchBags () {
         {/************************ITEM 7***********************/}
         <MDBListGroupItem className='d-flex justify-content-between align-items-center'>
           <div className='d-flex align-items-center'>
-            <img
-              src='Assets/LunchBags/53.png'
-              alt=''
-              style={{ width: '360px', height: '360px' }}
-              className='rounded-circle'
-            />
+            <ImageSelector
+                images={[
+                  'Assets/LunchBags/53.png', 
+                  'Assets/LunchBags/54.png', 
+                  'Assets/LunchBags/55.png'
+                  ]}
+                onSelect={handleTargetSelect}
+              />
             <div className='ms-3'>
               <p className='display-6 fw-bold mb-1'>Link Lunch Cooler</p>
               <p className='text-muted mb-0'>STYLE #559728134</p>
+              <p className='text-warning mb-1'>Minimum Order Qty: 100</p>
+              <MDBBadge pill light color='success' className='mb-3'>Available</MDBBadge>
+            
+              <MDBListGroup style={{ fontSize: '14px' }} light>
+              <p className='fw-bold'>Description:</p>
+                <MDBListGroupItem action className='px-3 rounded-3 mb-0'>
+                  Made Of 80 Gram Non- Woven, Coated Water- Resistant Polypropylene.
+                </MDBListGroupItem>
+                <MDBListGroupItem action className='px-3 rounded-3 mb-0'>
+                  Foil Laminated PE Foam Insulation.
+                </MDBListGroupItem>
+                <MDBListGroupItem action className='px-3 rounded-3 mb-0'>
+                  8 1/2" Handle.
+                </MDBListGroupItem>
+                <MDBListGroupItem action className='px-3 rounded-3 mb-0'>
+                  Spot Clean/Air Dry.
+                </MDBListGroupItem>
+              </MDBListGroup>
+
+              <p className='fw-bold mt-2' style={{ fontSize: '14px' }}>Sizes:</p>
+              <MDBListGroup style={{ fontSize: '14px' }} light>
+                <MDBListGroupItem action className='px-3 rounded-3'>
+                  10 "
+                </MDBListGroupItem>
+              </MDBListGroup>
             </div>
           </div>
-          <MDBBadge pill light color='success'>
-            Available
-          </MDBBadge>
         </MDBListGroupItem>
 
 
