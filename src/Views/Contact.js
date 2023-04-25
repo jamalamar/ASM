@@ -85,10 +85,10 @@ export default function Contact () {
                     <MDBCol>
                       <div className="md-form p-2">
                         <MDBInput
-                        label="City"
-                        name="City"
+                        label="School / City"
+                        name="School"
                         type="text"
-                        id="form-city"
+                        id="form-school"
                         required
                         />
                       </div>
