@@ -57,15 +57,16 @@ export default function Footer() {
               <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
               <p>
                 <MDBIcon icon="home" className="me-2" />
-                New York, NY 10012, US
+                1629 Central Ave, Cheyenne, WY 82001
               </p>
-              <p>
+              <a href='mailto:info@asm-essentials.com'>
                 <MDBIcon icon="envelope" className="me-3" />
-                info@asmsupplies.com
-              </p>
-              <p>
-                <MDBIcon icon="phone" className="me-3" /> + 01 234 567 88
-              </p>
+                info@asm-essentials.com
+              </a>
+              <div className='pb-3'></div>
+              <a href='tel:+19295124659'>
+                <MDBIcon icon="phone" className="me-3"/> +1 (929)-512-4659
+              </a>
             </MDBCol>
           </MDBRow>
         </MDBContainer>

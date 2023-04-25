@@ -23,7 +23,7 @@ export default function About () {
       <MDBContainer className='text-center'>
         <MDBTypography className='display-1 p-4 mb-5'>Why choose ASM?</MDBTypography>
         
-          <MDBRow className='row-cols-1 row-cols-md-3 fs-6 ' alignment='center'>
+          <MDBRow className='row-cols-1 row-cols-md-3' alignment='center'>
             <MDBCol>
               <MDBIcon icon='users' size='3x' color='info'/>
               <MDBTypography className='p-5'>
