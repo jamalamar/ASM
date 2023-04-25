@@ -441,6 +441,96 @@ export default function LunchBags () {
         </MDBListGroupItem>
 
 
+
+
+        {/************************ITEM 8***********************/}
+        <MDBListGroupItem className='d-flex justify-content-between align-items-center'>
+          <div className='d-flex align-items-center'>
+            <ImageSelector
+                images={[
+                  'Assets/LunchBags/20.png', 
+                  'Assets/LunchBags/21.png', 
+                  'Assets/LunchBags/22.png'
+                  ]}
+                onSelect={handleTargetSelect}
+              />
+            <div className='ms-3'>
+              <p className='display-6 fw-bold mb-1'>Cool-It Insulated Cooler Bag</p>
+              <p className='text-muted mb-0'>STYLE #560166672</p>
+              <p className='text-warning mb-1'>Minimum Order Qty: 100</p>
+              <MDBBadge pill light color='success' className='mb-3'>Available</MDBBadge>
+            
+              <MDBListGroup style={{ fontSize: '14px' }} light>
+              <p className='fw-bold'>Description:</p>
+                <MDBListGroupItem action className='px-3 rounded-3 mb-0'>
+                  Eco-friendly 80GSM non- woven cooler bag.
+                </MDBListGroupItem>
+                <MDBListGroupItem action className='px-3 rounded-3 mb-0'>
+                  Foam insulated with lead free aluminum lining.
+                </MDBListGroupItem>
+              </MDBListGroup>
+
+              <p className='fw-bold mt-2' style={{ fontSize: '14px' }}>Sizes:</p>
+              <MDBListGroup style={{ fontSize: '14px' }} light>
+                <MDBListGroupItem action className='px-3 rounded-3'>
+                  8 " x 6 " x 6 "
+                </MDBListGroupItem>
+              </MDBListGroup>
+            </div>
+          </div>
+        </MDBListGroupItem>
+
+
+
+
+        {/************************ITEM 9***********************/}
+        <MDBListGroupItem className='d-flex justify-content-between align-items-center'>
+          <div className='d-flex align-items-center'>
+            <ImageSelector
+                images={[
+                  'Assets/LunchBags/1.png',
+                  ]}
+                onSelect={handleTargetSelect}
+              />
+            <div className='ms-3'>
+              <p className='display-6 fw-bold mb-1'>Conserve RPET Non-Woven Lunch Cooler</p>
+              <p className='text-muted mb-0'>STYLE #562779789</p>
+              <p className='text-warning mb-1'>Minimum Order Qty: 100</p>
+              <MDBBadge pill light color='success' className='mb-3'>Available</MDBBadge>
+            
+              <MDBListGroup style={{ fontSize: '14px' }} light>
+              <p className='fw-bold'>Description:</p>
+                <MDBListGroupItem action className='px-3 rounded-3 mb-0'>
+                  Made of 80 GSM Non-Woven Post-Consumer RPET.
+                </MDBListGroupItem>
+                <MDBListGroupItem action className='px-3 rounded-3 mb-0'>
+                  Exterior with Aluminum Film + PE Foam insulation.
+                </MDBListGroupItem>
+                <MDBListGroupItem action className='px-3 rounded-3 mb-0'>
+                  Made from Post-Consumer recycled PET Plastic bottles.
+                </MDBListGroupItem>
+                <MDBListGroupItem action className='px-3 rounded-3 mb-0'>
+                  Holds six 12 oz. cans.
+                </MDBListGroupItem>
+                <MDBListGroupItem action className='px-3 rounded-3 mb-0'>
+                  Hand wash only.
+                </MDBListGroupItem>
+                <MDBListGroupItem action className='px-3 rounded-3 mb-0'>
+                  Recommended weight tolerance: 22 lbs.
+                </MDBListGroupItem>
+              </MDBListGroup>
+
+              <p className='fw-bold mt-2' style={{ fontSize: '14px' }}>Sizes:</p>
+              <MDBListGroup style={{ fontSize: '14px' }} light>
+                <MDBListGroupItem action className='px-3 rounded-3'>
+                  8 " x 6.5 " x 5 "
+                </MDBListGroupItem>
+              </MDBListGroup>
+            </div>
+          </div>
+        </MDBListGroupItem>
+
+
       </MDBListGroup>
 
     </div>
