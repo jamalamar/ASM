@@ -15,6 +15,7 @@ import WaterBottles  from './Views/WaterBottles'
 import ToteBags  from './Views/ToteBags'
 import SchoolApparel  from './Views/SchoolApparel'
 import SchoolSupplies  from './Views/SchoolSupplies'
+import Toiletries  from './Views/Toiletries'
 
 function App() {
 
@@ -35,6 +36,7 @@ function App() {
             <Route exact path="/ToteBags" element={<ToteBags/>} />
             <Route exact path="/SchoolApparel" element={<SchoolApparel/>} />
             <Route exact path="/SchoolSupplies" element={<SchoolSupplies/>} />
+            <Route exact path="/Toiletries" element={<Toiletries/>} />
             
           </Routes>
         
