@@ -135,7 +135,7 @@ export default function Contact () {
                         />
                       </div>
                       
-                      <MDBBtn type="submit" color="primary" style={style.blueButton}>
+                      <MDBBtn type="submit" color="" className='custom-button'>
                         Submit <MDBIcon icon="paper-plane" />
                       </MDBBtn>
                     </MDBCol>
