@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+
+.custom-button {
+  background-color: rgba(1, 58, 99, 1);
+  border-color: rgba(1, 58, 99, 1);
+  color: #fff;
+  transition: background-color 0.2s ease-in-out; /* add a transition effect for a smoother hover effect */
+}
+
+.custom-button:hover {
+  background-color: rgba(1, 58, 99, 0.7); /* lighten the button color on hover */
+}

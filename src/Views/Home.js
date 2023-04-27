@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../App.css';
 
 import {
   MDBCarousel,
@@ -34,15 +35,10 @@ export default function Home () {
         },
         blue: {
           color: 'rgba(1, 58, 99, 1)'
-        },
-        blueButton: {
-          backgroundColor: 'rgba(1, 58, 99, 1)',
-          borderColor: 'rgba(1, 58, 99, 1)',
-          color: '#fff',
-          transition: 'background-color 0.2s ease-in-out'
         }
     
     }
+
 
 
 
@@ -177,7 +173,7 @@ export default function Home () {
             </MDBCardText>
               
               
-              <MDBBtn rounded className='mx-2' color='primary' size='lg' href='/LunchBags' style={style.blueButton}>Explore</MDBBtn>
+              <MDBBtn rounded className='mx-2 custom-button' color='' size='lg' href='/LunchBags' >Explore</MDBBtn>
           
           </MDBCardBody>
         </MDBCard>
@@ -223,7 +219,7 @@ export default function Home () {
             <MDBCardText>
 
             </MDBCardText>
-            <MDBBtn rounded className='mx-2' color='primary' size='lg' href='/WaterBottles' style={style.blueButton}>Explore</MDBBtn>
+            <MDBBtn rounded className='mx-2 custom-button' color='' size='lg' href='/WaterBottles' >Explore</MDBBtn>
           </MDBCardBody>
         </MDBCard>
       </MDBCol>
@@ -268,7 +264,7 @@ export default function Home () {
             <MDBCardText>
 
             </MDBCardText>
-            <MDBBtn rounded className='mx-2' color='primary' size='lg' href='/ToteBags' style={style.blueButton}>Explore</MDBBtn>
+            <MDBBtn rounded className='mx-2 custom-button' color='' size='lg' href='/ToteBags' >Explore</MDBBtn>
           </MDBCardBody>
         </MDBCard>
       </MDBCol>
@@ -313,7 +309,7 @@ export default function Home () {
             <MDBCardText>
 
             </MDBCardText>
-            <MDBBtn rounded className='mx-2' color='primary' size='lg' href='/SchoolApparel' style={style.blueButton}>Explore</MDBBtn>
+            <MDBBtn rounded className='mx-2 custom-button' color='' size='lg' href='/SchoolApparel' >Explore</MDBBtn>
           </MDBCardBody>
         </MDBCard>
       </MDBCol>
