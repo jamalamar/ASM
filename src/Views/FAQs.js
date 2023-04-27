@@ -27,7 +27,7 @@ export default function FAQs () {
 
         {/******************* Header ********************/}
         <div className='p-5 text-center bg-light'>
-          <h1 className=''>Frequently Asked Questions</h1>
+          <h1 className='display-6 fw-bold'>Frequently Asked Questions</h1>
         </div>
 
 

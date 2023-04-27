@@ -37,7 +37,7 @@ export default function CustomDesigns () {
 
     <div className='text-center py-5'>
       <MDBIcon icon='graduation-cap' size='5x' color='dark'/>
-      <MDBTypography className='display-2 text-center text-dark'>Custom Designs</MDBTypography>
+      <MDBTypography className='display-3 text-center text-dark fw-bold'>Custom Designs</MDBTypography>
       <MDBTypography className='px-5 mx-5 '>
         ASM-Essentials allows schools to create their own unique designs on various clothing items such 
         as t-shirts, hoodies, sweatshirts, and more. We provide schools with a wide range of 
@@ -197,7 +197,7 @@ export default function CustomDesigns () {
 
 
     {/******************* Start of Info Section ********************/}
-      <MDBContainer className='text-center py-5 my-5 bg-tertiary'>
+      <MDBContainer className='text-center py-5 my-5 bg-tertiary bg-light'>
         
           <MDBRow className='row-cols-1 row-cols-md-2 fs-6 ' alignment='center'>
             <MDBCol>
@@ -213,7 +213,7 @@ export default function CustomDesigns () {
             <MDBCol>
               <img 
                 src='Assets/CustomDesigns/Custom1.jpg' 
-                className='img-fluid shadow-4 border border-primary border-5 rounded' 
+                className='img-fluid shadow-4 rounded' 
                 alt='Custom Example' 
               />
             </MDBCol>
@@ -222,13 +222,13 @@ export default function CustomDesigns () {
       </MDBContainer>
 
 
-      <MDBContainer className='text-center py-5 my-5 bg-tertiary'>
+      <MDBContainer className='text-center py-5 my-5 bg-tertiary bg-light'>
         
           <MDBRow className='row-cols-1 row-cols-md-2 fs-6 ' alignment='center'>
             <MDBCol>
               <img 
                 src='Assets/CustomDesigns/Custom2.jpg' 
-                className='img-fluid shadow-4 border border-warning border-5 rounded' 
+                className='img-fluid shadow-4 rounded' 
                 alt='Custom Example' 
               />         
             </MDBCol>

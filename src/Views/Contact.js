@@ -25,6 +25,21 @@ export default function Contact () {
   const style = {
         customSelect: {
           margin: '15px'
+        },
+        orangeButton: {
+          backgroundColor: 'rgba(246, 139, 79, 1)',
+          borderColor: 'rgba(246, 139, 79, 1)',
+          color: '#fff',
+          transition: 'background-color 0.2s ease-in-out'
+        },
+        blue: {
+          color: 'rgba(1, 58, 99, 1)'
+        },
+        blueButton: {
+          backgroundColor: 'rgba(1, 58, 99, 1)',
+          borderColor: 'rgba(1, 58, 99, 1)',
+          color: '#fff',
+          transition: 'background-color 0.2s ease-in-out'
         }
     
     }
@@ -41,7 +56,7 @@ export default function Contact () {
             <MDBRow className="flex-center">
               <MDBCol>
               
-              <MDBTypography className='display-4 text-center'>Contact Us</MDBTypography>
+              <MDBTypography className='display-4 text-center fw-bold m-0'>Contact Us</MDBTypography>
               <MDBTypography className='fw-light text-center'>Fill in your information and we'll get back to you as soon as possible.</MDBTypography>
 
                 <MDBCardBody className="form">
@@ -120,7 +135,7 @@ export default function Contact () {
                         />
                       </div>
                       
-                      <MDBBtn type="submit" color="success" >
+                      <MDBBtn type="submit" color="primary" style={style.blueButton}>
                         Submit <MDBIcon icon="paper-plane" />
                       </MDBBtn>
                     </MDBCol>

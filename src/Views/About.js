@@ -21,9 +21,9 @@ export default function About () {
       */}
 
       <MDBContainer className='text-center'>
-        <MDBTypography className='display-1 p-4 mb-5'>Why choose ASM?</MDBTypography>
+        <MDBTypography className='display-3 p-4 mb-5 fw-bold'>Why choose ASM?</MDBTypography>
         
-          <MDBRow className='row-cols-1 row-cols-md-3' alignment='center'>
+          <MDBRow className='row-cols-1 row-cols-md-3 fs-6 ' alignment='center'>
             <MDBCol>
               <MDBIcon icon='users' size='3x' color='info'/>
               <MDBTypography className='p-5'>
@@ -54,7 +54,7 @@ export default function About () {
             </MDBCol>
           </MDBRow>
 
-          <MDBTypography className='display-6 pb-5 fw-bold'>
+          <MDBTypography className='display-6 pb-5 fw-light text-warning'>
             We look forward to welcoming you into the ASM Essentials family.
           </MDBTypography>
 

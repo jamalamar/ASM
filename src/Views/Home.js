@@ -25,6 +25,21 @@ export default function Home () {
         },
         car: {
           margin: 'auto'
+        },
+        orangeButton: {
+          backgroundColor: 'rgba(246, 139, 79, 1)',
+          borderColor: 'rgba(246, 139, 79, 1)',
+          color: '#fff',
+          transition: 'background-color 0.2s ease-in-out'
+        },
+        blue: {
+          color: 'rgba(1, 58, 99, 1)'
+        },
+        blueButton: {
+          backgroundColor: 'rgba(1, 58, 99, 1)',
+          borderColor: 'rgba(1, 58, 99, 1)',
+          color: '#fff',
+          transition: 'background-color 0.2s ease-in-out'
         }
     
     }
@@ -84,14 +99,14 @@ export default function Home () {
         
           <MDBRow className='row-cols-1 row-cols-md-3 fs-6 ' alignment='center'>
             <MDBCol>
-              <MDBIcon icon='users' size='5x' color='success'/>
+              <MDBIcon icon='users' size='5x' style={style.blue}/>
               <MDBTypography className='p-5'>
                 A family-founded and operated business since 2018.
               </MDBTypography>
             </MDBCol>
             
             <MDBCol>
-              <MDBIcon icon='award' size='5x' color='success'/>
+              <MDBIcon icon='award' size='5x' style={style.blue}/>
               <MDBTypography className='p-5'>
                 Product, quality, accountability, and customer satisfaction are of our utmost
                 priorities. 
@@ -99,7 +114,7 @@ export default function Home () {
             </MDBCol>
             
             <MDBCol>
-              <MDBIcon icon='headset' size='5x' color='success'/>
+              <MDBIcon icon='headset' size='5x' style={style.blue}/>
               <MDBTypography className='p-5'>
               Our team is committed to providing the best possible customer experience.
               </MDBTypography>
@@ -115,7 +130,7 @@ export default function Home () {
 
       {/******************* Start of Card Group ********************/}
       <div style={style.cards}>
-      <MDBTypography className='display-3 pb-3 mb-3 text-center'>Best Sellers</MDBTypography>
+      <MDBTypography className='display-3 pb-3 mb-3 text-center fw-bold'>Best Sellers</MDBTypography>
       <MDBRow className='row-cols-1 row-cols-md-4 g-4'>
 
 
@@ -156,10 +171,14 @@ export default function Home () {
           </MDBRipple>
           <MDBCardBody>
             <MDBCardTitle>Lunch Bags</MDBCardTitle>
+            
             <MDBCardText>
 
             </MDBCardText>
-            <MDBBtn rounded className='mx-2' color='success' size='lg' href='/LunchBags'>Explore</MDBBtn>
+              
+              
+              <MDBBtn rounded className='mx-2' color='primary' size='lg' href='/LunchBags' style={style.blueButton}>Explore</MDBBtn>
+          
           </MDBCardBody>
         </MDBCard>
       </MDBCol>
@@ -204,7 +223,7 @@ export default function Home () {
             <MDBCardText>
 
             </MDBCardText>
-            <MDBBtn rounded className='mx-2' color='success' size='lg' href='/WaterBottles'>Explore</MDBBtn>
+            <MDBBtn rounded className='mx-2' color='primary' size='lg' href='/WaterBottles' style={style.blueButton}>Explore</MDBBtn>
           </MDBCardBody>
         </MDBCard>
       </MDBCol>
@@ -249,7 +268,7 @@ export default function Home () {
             <MDBCardText>
 
             </MDBCardText>
-            <MDBBtn rounded className='mx-2' color='success' size='lg' href='/ToteBags'>Explore</MDBBtn>
+            <MDBBtn rounded className='mx-2' color='primary' size='lg' href='/ToteBags' style={style.blueButton}>Explore</MDBBtn>
           </MDBCardBody>
         </MDBCard>
       </MDBCol>
@@ -294,7 +313,7 @@ export default function Home () {
             <MDBCardText>
 
             </MDBCardText>
-            <MDBBtn rounded className='mx-2' color='success' size='lg' href='/SchoolApparel'>Explore</MDBBtn>
+            <MDBBtn rounded className='mx-2' color='primary' size='lg' href='/SchoolApparel' style={style.blueButton}>Explore</MDBBtn>
           </MDBCardBody>
         </MDBCard>
       </MDBCol>
