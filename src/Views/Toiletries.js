@@ -26,7 +26,7 @@ const ImageSelector = ({ images, onSelect }) => {
   };
 
   return (
-    <div style={{ width: '520px', height: '100' }}>
+    <div style={{ width: '520px', height: '100' }} >
       <img src={selectedImage} alt="Selected Image" style={{ width: '480px', height: '480px' }}/>
       <br></br>
       {images.map((image, index) => (
@@ -70,7 +70,7 @@ export default function Toiletries () {
                 onSelect={handleTargetSelect}
               />
 
-            <div>
+            <div className='px-3'>
               <p className='display-6 fw-bold mb-1'>UNISEX TOILETRY PACKAGE</p>
               <p className='text-warning mb-1'>Minimum Order Qty: 10</p>
               <MDBBadge pill light color='success' className='mb-3'>Available</MDBBadge>
@@ -130,7 +130,7 @@ export default function Toiletries () {
                 onSelect={handleTargetSelect}
               />
 
-            <div>
+            <div className='px-3'>
               <p className='display-6 fw-bold mb-1'>FEMALE TOILETRY PACKAGE</p>
               <p className='text-warning mb-1'>Minimum Order Qty: 10</p>
               <MDBBadge pill light color='success' className='mb-3'>Available</MDBBadge>

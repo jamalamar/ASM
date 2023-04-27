@@ -76,6 +76,12 @@ export default function Navbar() {
             </MDBNavbarItem>
 
             <MDBNavbarItem>
+              <MDBNavbarLink href='/Custom'>
+                Custom Designs
+              </MDBNavbarLink>
+            </MDBNavbarItem>
+
+            <MDBNavbarItem>
               <MDBNavbarLink href='/Contact'>
                 Contact
               </MDBNavbarLink>

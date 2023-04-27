@@ -7,6 +7,7 @@ import Footer from './Components/Footer.js'
 import Home  from './Views/Home'
 import About  from './Views/About'
 import Catalog  from './Views/Catalog'
+import CustomDesigns  from './Views/CustomDesigns'
 import FAQs  from './Views/FAQs'
 import Contact  from './Views/Contact'
 
@@ -16,6 +17,7 @@ import ToteBags  from './Views/ToteBags'
 import SchoolApparel  from './Views/SchoolApparel'
 import SchoolSupplies  from './Views/SchoolSupplies'
 import Toiletries  from './Views/Toiletries'
+
 
 function App() {
 
@@ -29,6 +31,7 @@ function App() {
             <Route exact path="/" element={<Home/>} />
             <Route exact path="/About" element={<About/>} />
             <Route exact path="/Catalog" element={<Catalog/>} />
+            <Route exact path="/Custom" element={<CustomDesigns/>} />
             <Route exact path="/FAQs" element={<FAQs/>} />
             <Route exact path="/Contact" element={<Contact/>} />
             <Route exact path="/LunchBags" element={<LunchBags/>} />
