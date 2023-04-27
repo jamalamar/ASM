@@ -54,7 +54,7 @@ export default function SchoolSupplies () {
     return (
       
       <div className='p-5'>
-      <MDBTypography className='display-3 pb-3 mb-3'>School Supplies</MDBTypography>
+      <MDBTypography className='display-3 pb-3 mb-3 fw-bold'>School Supplies</MDBTypography>
 
 
         <MDBListGroup style={{ minWidth: '22rem' }} light>

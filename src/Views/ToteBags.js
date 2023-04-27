@@ -51,7 +51,7 @@ export default function ToteBags () {
     return (
       
       <div className='p-5'>
-      <MDBTypography className='display-3 pb-3 mb-3'>Tote Bags</MDBTypography>
+      <MDBTypography className='display-3 pb-3 mb-3 fw-bold'>Tote Bags</MDBTypography>
 
 
         <MDBListGroup style={{ minWidth: '22rem' }} light>

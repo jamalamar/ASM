@@ -51,7 +51,7 @@ export default function WaterBottles () {
     return (
       
       <div className='p-5'>
-      <MDBTypography className='display-3 pb-3 mb-3'>Water Bottles</MDBTypography>
+      <MDBTypography className='display-3 pb-3 mb-3 fw-bold'>Water Bottles</MDBTypography>
 
 
         <MDBListGroup style={{ minWidth: '22rem' }} light>

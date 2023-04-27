@@ -34,6 +34,16 @@ const ImageSelector = ({ images, onSelect }) => {
           <img src={image} alt={`Thumbnail ${index + 1}`} width="50" height="50" />
         </MDBBtn>
       ))}
+      <br></br>
+      <p className='fw-bold pt-3'>Available Colors:</p>
+      <div className=''>
+        <MDBIcon icon='circle' size='2x' color='dark' className=''/>
+        <MDBIcon icon='circle' size='2x' color='secondary' className='px-4'/>
+        <MDBIcon icon='circle' size='2x' color='light' className=''/>
+        <MDBIcon icon='circle' size='2x' style={{color: 'rgba(1, 58, 99, 1)'}} className='px-4'/>
+        <MDBIcon icon='circle' size='2x' color='primary' className=''/>
+        <MDBIcon icon='circle' size='2x' style={{color: 'rgba(120, 0, 0, 1)'}} className='px-4'/>
+      </div>
     </div>
   );
 };
@@ -54,7 +64,7 @@ export default function SchoolApparel () {
     return (
       
       <div className='p-5'>
-      <MDBTypography className='display-3 pb-3 mb-3'>School Apparel</MDBTypography>
+      <MDBTypography className='display-3 pb-3 mb-3 fw-bold'>School Apparel</MDBTypography>
 
 
         <MDBListGroup style={{ minWidth: '22rem' }} light>

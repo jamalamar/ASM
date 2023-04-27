@@ -47,7 +47,7 @@ export default function LunchBags () {
     return (
       
     <div className='p-5'>
-      <MDBTypography className='display-3 pb-3 mb-3'>Lunch Bags</MDBTypography>
+      <MDBTypography className='display-3 pb-3 mb-3 fw-bold'>Lunch Bags</MDBTypography>
 
 
         <MDBListGroup style={{ minWidth: '22rem' }} light>
